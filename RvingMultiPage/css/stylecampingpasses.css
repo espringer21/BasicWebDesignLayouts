@@ -1,0 +1,231 @@
+
+.container {
+	margin: 0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.2;
+    background-color: white;
+   
+}
+body{
+    background-image: url(../img/bodybackgroundimg.png);
+    height: 960px;
+}
+header nav ul {
+    display: flex;
+   
+}
+header nav a{
+    color: #f59444;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+header{
+    background-color: white;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+.header-options{
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.logo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.titlesection{
+    background-image: url(../img/headerphoto.jpg);
+    height: 229px;
+}
+.titlesection h1{
+    width: 430px;
+    height: 60px;
+    font-size: 54px;
+    line-height: 50px;
+    color: #6c7353;
+    font-weight: 700;
+    font-family: "Heebo";
+    background-color: rgba(255, 255,255, 0.851);
+    padding-left: 13px;
+    padding-top: 20px;
+}
+.titlesection div {
+    padding-top: 74px;
+    padding-left: 24px; 
+}
+
+.passes{
+    margin-top: 35px;
+    background-color: white;
+    border: 1px solid black;  
+}
+.passes section{
+    display: flex;
+}
+.passes div ul{
+    list-style: disc;
+    list-style-position:inside;
+    padding-top: 30px;
+    padding-left: 24px;
+    padding-bottom: 47px;
+}
+.passes div ul li{
+    font-size: 18px;
+    line-height: 27px;
+    color: #161811;
+    font-weight: 400;
+    font-family: "Noto Sans";
+}
+.passes h3{
+    color: white;
+    font-size: 26px;
+    background-color: #f59444;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
+h2{
+
+    width: 600px;
+    font-size: 54px;
+    line-height: 27px;
+    color: #6c7353;
+    font-weight: 700;
+    font-family: "Heebo";
+    margin-top: 73px;
+    margin-bottom: 20px;
+    
+}
+table, th, td {
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    margin: 25px 25px 0 0;
+}
+
+td{
+    
+    width: 221px;
+    height: 27px;
+    font-size: 18px;
+    background-color: #ffffff;
+    text-align: left;
+    color: #161811;
+    font-weight: 400;
+    font-family: "Noto Sans";
+    padding: 11px 0 0 9px;
+}
+.available-sites{
+    display: flex;
+    flex-wrap: wrap;
+}
+.available-sites div{
+    text-align: center;
+    width: 300px;
+    height: 495px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #161811;
+    margin:0 26.5px 30px 0;
+}
+.available-sites div h3{
+    color: white;
+    font-size: 26px;
+    background-color: #f59444;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px 15px 0 15px;
+}
+.reserve-button {
+    width: 75px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    background-color: rgba(108, 115, 85, 255);
+    font-weight: 400;
+    font-family: "Noto Sans";
+    text-align: center;
+    border-radius: 3px;
+    margin: 30px 0 0 110px;
+}
+.reserve-button:hover{
+    background-color: #3b4834;
+}
+.available-sites img{
+    align-items: center;
+    margin: 25px 33px 24px 30px;
+    width: 235px;
+    height: 214px;
+
+}
+h4{
+    width: 270px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161811;
+    font-weight: 400;
+    font-family: "Noto Sans";
+    text-align: center;
+}
+h5{
+    width: 270px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #757575;
+    font-weight: 400;
+    font-family: "Noto Sans";
+    text-align: center;
+}
+.space{
+    padding-top: 25px;
+}
+footer{
+    background-color: #3b4834;
+}
+.footertitle{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+}
+footer ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap ;
+    margin-right: 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer li a {
+text-decoration: none;
+padding-right: 40px;
+color: white;
+padding: 10px;
+font-family: 'Noto Sans', sans-serif;
+
+}
+footer li{
+    width:150px;
+    text-align: center;
+}
+
+footer div{
+    background-color: #6c7355;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+footer a:hover{
+    color: #f59444;
+}

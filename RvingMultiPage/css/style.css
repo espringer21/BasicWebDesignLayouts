@@ -1,0 +1,195 @@
+
+.container {
+	margin: 0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.2;
+    background-color: white;
+   
+}
+body{
+    background-image: url(../img/bodybackgroundimg.png);
+    height: 960px;
+}
+header nav ul {
+    display: flex;
+   
+}
+header nav a{
+    color: #f59444;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+.header-options{
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.logo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.rvinglife{
+    width: 440px;
+    background-color: #3b4834;
+    height: 302px;
+}
+.RVone{
+    background-image: url(../img/firstrvphoto.png);
+    height: 377px;
+    padding-top: 73px;
+    border: 1px solid black;
+    
+}
+.rvinglife-header{
+    
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    margin-left: 29px;
+    padding-top: 53px;
+    width: 374px;
+    font-size:72px;
+    line-height: 72px; 
+    font-weight: 800;
+}
+.rvinglife-p{
+    margin-left: 29px;
+    padding-top: 17.5px;
+    font-family: 'Noto Sans', sans-serif; 
+    width: 384px;
+    height: 41px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+.rvinglife-book{
+
+    background-color:white; 
+    border: 1px solid black;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 29px;
+    margin-top: 31px;
+    width: 384px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 60px;
+    
+}
+.rvinglife-book a{
+    text-decoration: none;
+    color: #3b4834;
+   
+}
+.rvinglife-book:hover{
+    background-color: #6c7355;
+}
+.rvinglife-book a:hover{
+    color: white;
+}
+.header-two{
+    margin-top: 48px;
+    color: #6c7355;
+    font-size: 54px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    
+}
+.posted-articals{
+    margin-bottom: 35px;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+main div p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.photo{
+    display: flex;
+    padding: 23px;
+}
+h3{
+    color: white;
+    font-size: 26px;
+    background-color: #f59444;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
+.name{
+    color: #6c7355;
+    font-size: 16px;
+    padding: 13px;
+    line-height: 24px;
+    background-color: #e4e4e4;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+footer{
+    background-color: #3b4834;
+}
+.footertitle{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+}
+footer ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap ;
+    margin-right: 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer li a {
+text-decoration: none;
+padding-right: 40px;
+color: white;
+padding: 10px;
+font-family: 'Noto Sans', sans-serif;
+
+}
+footer li{
+    width:150px;
+    text-align: center;
+}
+
+footer div{
+    background-color: #6c7355;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+span{
+    font-weight: bold;
+}
+.secondpara{
+    margin-left: 0px;
+    margin-right: 20px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+header{
+    background-color: white;
+}
+footer a:hover{
+    color: #f59444;
+}

@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>VRing Life-Checkout</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/checkoutstyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400&display=swap" rel="stylesheet">
+    </head>
+    <body class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li class="logo"><a href="index.html"><img src="img/RVinglogo.png" alt="Image not available"></a></li>
+                    <li class="header-options"><a href="campingpasses.html" >CAMPING PASSES</a></li>
+                    <li class="header-options"><a href="checkout.html" >CHECKOUT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Checkout</h1>
+            <section class="flex">
+                
+                <div class="shipping">
+                    <h3>Shipping address</h3>
+                    <form action="/my-handling-form-page" method="post">
+                        <ul>
+                          <li>
+                            
+                            <label for="Firstname">First name<span style="color: red;"> (required)</span></label>
+                            <br>
+                            <input type="text" id="Firstname" name="user_Firstname">
+                          </li>
+                          <li>
+                            <label for="Lastname">Last name<span style="color: red;"> (required)</span></label>
+                            <br>
+                            <input type="text" id="Lastname" name="user_Lastname">
+                          </li>
+                          <li>
+                            <label for="Address">Address<span style="color: red;"> (required)</span></label>
+                            <br>
+                            <input type="text" id="Address" name="user_address">
+                          </li>
+                          <li>
+                            <label for="Province/State">Province/State<span style="color: red;"> (required)</span></label>
+                            <br>
+                            <input type="text" id="Province/State" name="user_Province/State">
+                          </li>
+                          <li>
+                            <label for="City">City<span style="color: red;"> (required)</span></label>
+                            <br>
+                            <input type="text" id="City" name="user_City">
+                          </li>
+                          <li>
+                            <label for="PostalCode">Postal Code<span style="color: red;"> (required)</span></label>
+                            <br>
+                            <input type="text" id="PostalCode" name="user_PostalCode">
+                          </li>
+                          <li>
+                            <label for="Email">Email<span style="color: red;"> (required)</span></label>
+                            <br>
+                            <input type="email" id="Email" name="user_email">
+                          </li>
+                          <li>
+                            <label for="Telephone">Telephone<span style="color: red;"> (required)</span></label>
+                            <br>
+                            <input type="text" id="Telephone" name="user_Telephone">
+                          </li>
+                        </ul>
+                    </form>
+
+                </div>
+                <div class="myorder">
+                    <h3>My order</h3>
+                    <p class="twojackmain">Two Jack Main Annual Pass</p>
+                    <p class="adult">Adult</p>
+                    <p class="vaild">Valid from December 2022 to December 2032</p>
+                    <p class="money">$72.25</p>
+                    <p class="remove">X Remove item</p>
+    
+                </div>
+            </section>
+
+            <section>
+                <div class="billing">
+                    <h3>Billing information</h3>
+                    <form>
+                        <ul>
+                            <li>
+                              <label for="Creditcardnumber">Credit card number<span style="color: red;"> (required)</span></label>
+                              <br>
+                              <input class="creditimage" type="text" id="Creditcardnumber" name="user_creditcardnumber" style="width: 592px; padding-left: 45px;">
+                            </li>
+                            <li>
+                              <label for="Expirydate">Expiry date<span style="color: red;">(required)</span></label>
+                              <br>
+                              <input  type="text" id="Expirydate" name="user_Expirydate" placeholder="yyyy - mm - dd">
+                            </li>
+                            <li>
+                              <label for="Securitycode">Security code<span style="color: red;"> (required)</span></label>
+                              <br>
+                              <input type="text" id="Securitycode" name="user_Securitycode">
+                            </li>
+                        </ul>
+
+                    </form>
+                </div>
+            </section>
+
+             <div>
+                <form>
+                  <div>
+                     <input type="checkbox" id="terms" name="terms" value="terms">
+                     <label for="terms">I accept the terms of use and understand that this pass or permit is non-transferrable and non-refundable.</label>
+                    </div>
+                </form>
+                <p class="purchase-now">Purchase now</p>
+
+              </div>
+        </main>
+        <footer>
+            <h2 class="footertitle">RVing Life</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">RV FAQ</a></li>
+                    <li><a href="#">RV Sites</a></li>
+            
+                </ul>
+                <ul>
+                    <li><a href="#">RV Stories</a></li>
+                    <li><a href="#">Rental Plans</a></li>
+                    <li><a href="#">Plan A trip</a></li>
+                </ul>
+            </nav>
+            <div>
+                <p>&copy; Copyright 2022. All Rights Reserved</p>
+                <p>Educational purpuses Only</p>
+            </div>
+        </footer>
+    </body>
+</html>

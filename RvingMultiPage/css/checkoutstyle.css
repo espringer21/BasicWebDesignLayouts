@@ -1,0 +1,258 @@
+
+.container {
+	margin: 0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.2;
+    background-color: white;
+   
+}
+body{
+    background-image: url(../img/bodybackgroundimg.png);
+    height: 960px;
+}
+header nav ul {
+    display: flex;
+   
+}
+header{
+    background-color: white;
+}
+header nav a{
+    color: #f59444;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+.header-options{
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.logo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1{
+    width: 241px;
+    font-size: 54px;
+    color: #6c7353;
+    font-weight: 700;
+    font-family: "Heebo";
+}
+h3{
+    color: white;
+    font-size: 26px;
+    background-color: #f59444;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
+.twojackmain{
+    width: 259px;
+    height: 63px;
+    font-size: 21px;
+    line-height: 32px;
+    color: #6c7355;
+    font-family: "Heebo";
+    padding-top: 30px;
+    font-weight: 900;
+}
+.adult{
+    width: 59px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161811;
+    font-weight: 400;
+    font-family: "Noto Sans";
+    
+}
+.vaild{
+    width: 260px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161811;
+    font-weight: 400;
+    font-family: "Noto Sans"; 
+}
+.remove:hover{
+    width: 119px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #3b4834;
+    font-weight: 400;
+    font-family: "Noto Sans";
+}
+.remove{
+    width: 119px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Noto Sans";
+}
+.money{
+    width: 72px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161811;
+    font-weight: 700;
+    font-family: "Noto Sans";
+}
+.flex{
+    display: flex;
+}
+.myorder{
+    width:259px;
+
+}
+.shipping{
+    width: 668px;
+    height: 473px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 36px;
+}
+.shipping ul{
+    display: flex ;
+    flex-wrap: wrap;
+}
+.shipping li{
+padding: 30px 14px 0 14px;
+}
+.shipping input{
+    width: 300px;
+    height: 40px;
+    background-color: #f8f5f5;
+    border: 1px solid #dddddd;
+}
+label{
+    width: 195px;
+    height: 24px;
+    font-size: 16px;
+    color: #161811;
+    font-weight: 400;
+    font-family: "Noto Sans";
+}
+.billing{
+    width: 668px;
+    height: 281px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: white;
+    margin-bottom: 36px;
+}
+.billing ul{
+    display: flex ;
+    flex-wrap: wrap;
+}
+.billing li{
+    padding-top: 29px;
+    padding-left: 14px;
+}
+.billing input{
+    width: 300px;
+    height: 40px;
+    background-color: #f8f5f5;
+    border: 1px solid #dddddd;
+}
+.creditimage{
+    background: url(../img/credit-card-svgrepo-com-svg.png) no-repeat scroll 7px 7px ;
+    background-size: 30px;
+    opacity: 0.400;
+}
+.purchase-now{
+    width: 668px;
+    height: 38px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: rgba(108, 115, 85, 255);
+    font-weight: 700;
+    font-family: "Noto Sans";
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 36px;
+}
+.placeholder{
+    width: 119px;
+    height: 41px;
+    font-size: 13px;
+    line-height: 27px;
+    color: #000000;
+    font-family: "Courier New";
+}
+.term{
+    display: flex;
+    width: 625px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161811;
+    font-weight: 400;
+    font-family: "Noto Sans";
+    padding-left: 30px;
+}
+.purchase-now:hover{
+    background-color: #3b4834;
+}
+footer{
+    background-color: #3b4834;
+}
+.footertitle{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+}
+footer ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap ;
+    margin-right: 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer li a {
+text-decoration: none;
+padding-right: 40px;
+color: white;
+padding: 10px;
+font-family: 'Noto Sans', sans-serif;
+
+}
+footer li{
+    width:150px;
+    text-align: center;
+}
+
+footer div{
+    background-color: #6c7355;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+footer a:hover{
+    color: #f59444;
+}

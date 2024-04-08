@@ -1,0 +1,116 @@
+main{
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: whitesmoke;
+}
+body{
+    background-color: #f3f3f3;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    font-family: Verdana, sans-serif, Geneva;
+    color: #313131;
+}
+.container{
+    margin: 0 auto ;
+    width: 960px;
+    font-size: 100%;
+    text-align: center;
+    
+}
+h1,h2,h3,li{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #606060;
+    margin: 0 ;
+    
+}
+h3, li{
+    font-size: 20px;
+    font-weight: bold;
+}
+section{
+    width: 960px;
+    background-color: #fff;
+    border: 2px solid #708090; 
+    text-align: center;
+    margin-bottom: 26px;
+    
+}
+section header, section div div {
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #708090;
+    background-color: rgba(248,248,255,255);
+}
+ul.menu{
+    display: flex;
+    padding: 0;
+}
+ul.menu li{
+    width: 308px; /* 960-2-2-12-2-2-12-2-2 /3 = 308px*/
+    background-color: rgba(248,248,255,255);
+    list-style-type: none;
+    border: 2px solid #708090;
+}
+.link-two{
+    margin-left: 12px;
+}
+.link-three{
+   margin-left: 12px;
+}
+.section-one-columns,.section-two-columns,.section-three-columns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+      
+}
+section header {
+    margin-top: 26px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+section div div{
+    width: 280px;  /* 960 - 2-26-2-2-26-2-2-26-2-2-26-2 /3 = 280px */
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-left: 26px;
+}
+.second-row-spacing{
+    margin-top: 0;
+    margin-bottom: 26px;
+    margin-left: 26px;
+}
+.third-photo{
+    margin-right: 26px;
+}
+.second-row-spacing-third-photo{
+    margin-right: 26px;
+    margin-bottom: 26px;
+    margin-top: 0;
+}
+img{
+    width: 270px; /* Note: All images have a width of 270px.  */
+}
+.section-two-spacing{
+    width: 435px;   /* 960 - 2-26-2-2-26-2-2-26-2 /2 = 435  */
+}
+.section-two-spacing-two{
+    margin: 26px;
+    width: 435px; 
+}
+.section-two-spacing-three{
+    margin-top: 0;
+    margin-bottom: 26px;
+    margin-left: 26px;
+    width: 435px; /* 960 - 2-26-2-2-26-2-2-26-2 /2 = 435  */
+}
+.section-two-spacing-four{
+    margin-top: 0;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 26px;
+    width: 435px; /* 960 - 2-26-2-2-26-2-2-26-2 /2 = 435  */
+}
